@@ -1,0 +1,73 @@
+body{
+    background:url(./images/556942.jpg);/*Adding values for the background picture */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: Guardians;/*Add the font to use in the assignment*/
+    src: url(Guardians.ttf);
+}
+.guardian{
+    font-family: Guardians; /*applying values for each word using the correct font*/
+    text-align: center; 
+    color: aliceblue;
+    line-height: 0.5;
+}
+.rol{
+    font-family: Guardians; /*applying values for each word using the correct font*/
+    text-align: center; 
+    color: aliceblue;
+    line-height: 0.2;
+  
+}
+.pic{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.color{
+    font-family: Guardians; /*values for the word volume 3 changing the color*/
+    text-align: center; 
+    color: rgb(240, 236, 16);
+    line-height: 0.5;
+}
+.space{
+    height: 300px;/*values for Spaceship image*/
+    justify-content: center;
+  display: flex;
+  margin: auto;
+}
+.gr{
+justify-content: center;/*Values for Groot picture*/
+height: 400px;
+display: block;
+margin: auto;
+}
+.web{
+    font-family: Guardians; /*applying values for each word using the correct font*/
+    text-align: center; 
+    color: aliceblue;
+    line-height: 0.2; 
+    margin: 100px ;
+}
+.studios{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+.rev{
+    font-family: Guardians; /*applying values for each word using the correct font*/
+    text-align: center; 
+    color: aliceblue;
+    line-height: 0.2; 
+    margin: 100px ;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
